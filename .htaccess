@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([^/\.]+)/([^/\.]+)?$ storedata.php?type=$1&alias=$2
